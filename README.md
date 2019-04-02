@@ -54,8 +54,11 @@ spring.jpa.properties.hibernate.default_schema=schema
 ```
 
 7. Run the Java project
+
 *For this next step we have a couple options*
+
 8a. If you have the Angular app running (featured here: https://github.com/zlitteral/AngularSpringbootTest-Angular), on Windows, hit windows key + R and paste in the command `chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security` This will get around chrome's rules about CORS. Now navigate to http://localhost:4200
+
 8b. If you do not want to run the angular app, you can run the app through postman. I don't have the environments in the repo right now so the appropriate url to test with is http://localhost:8080/shipwrecks
 
 **Steps to test**
